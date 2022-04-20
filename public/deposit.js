@@ -86,6 +86,7 @@ function DepositForm(props) {
     <input type="number"
       className="form-control"
       placeholder="Enter amount"
+      min="0"
       value={amount} onChange={e => setAmount(e.currentTarget.value)} /><br />
 
     <button type="submit"
