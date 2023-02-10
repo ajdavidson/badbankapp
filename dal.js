@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 //const ev = require('dotenv').config()
 //console.log(process.env.MDB_USR)
 //const url = 'mongodb+srv://' + process.env.MDB_USR + ':' + process.env.MDB_PWD + '@' + process.env.MDB_DBN + '.93pyc5t.mongodb.net/?retryWrites=true&w=majority';
-const uri = "mongodb+srv://admin:124get@cluster0.93pyc5t.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://admin:124get@cluster0.93pyc5t.mongodb.net/?retryWrites=true&w=majority";
 let db = null;
 
 // connect to mongo
