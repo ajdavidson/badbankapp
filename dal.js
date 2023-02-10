@@ -14,7 +14,7 @@ MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
   console.log("Connected successfully to MongoDB server");
 
   // connect to myproject database
-  db = client.db('myproject');
+  db = client.db('db');
 });
 
 // create user account
